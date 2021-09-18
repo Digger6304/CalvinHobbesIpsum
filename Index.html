@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Calvin and Hobbes Ipsum</title>
+    <link rel="stylesheet" href="overrides.css">
+    <link rel="stylesheet" href="semantic.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="semantic.js"></script>
+    <script src="quotes.js"></script>
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    
+    <div class="ui three column centered grid">
+        <div class="column">
+            
+            <h1 style="text-align:center; margin-top: 1em; font-family: 'calvin&hobbes'; font-size: 4em;" class="ui header">Calvin and Hobbes Ipsum</h1>
+            
+            <img style=" margin-top: 3em;" class="ui centered medium image" src="stream.png">
+
+            <div class="ui centered fluid card">
+                <div class="content">
+                  <div class="header">Who's in my tiger trap?</div>
+                </div>
+                <div class="content">
+
+                    <div class="ui form">
+                      <div class="inline fields">
+                        <div class="field">
+                            <div class="ui radio checkbox">
+                              <input id="calvinradio" type="radio" name="action" checked="checked">
+                              <label>Calvin</label>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="ui radio checkbox">
+                              <input id="hobbesradio" type="radio" name="action">
+                              <label>Hobbes</label>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="ui radio checkbox">
+                              <input id="spiffradio" type="radio" name="action">
+                              <label>Spaceman Spiff</label>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="ui radio checkbox">
+                              <input id="lucyradio" type="radio" name="action">
+                              <label>Lucy</label>
+                            </div>
+                          </div>
+                          <div class="field">
+                            <div class="ui radio checkbox">
+                              <input id="moeradio" type="radio" name="action">
+                              <label>Moe</label>
+                            </div>
+                          </div>
+                          </div>
+                    </div>
+                    <select class="ui dropdown" id="numparagraphs">
+                      <option value="">Number of Paragraphs</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="5">5</option>
+                      <option value="10">10</option>
+                      <option value="50">50</option>
+                    </select>
+                </div>
+                <div class="extra content">
+                  <button class="fluid positive ui button" onclick="generate();" > Generate </button>
+                </div>
+                
+              </div>
+              <div style=" font-size: 1.2em; margin-top: 2em;" id="output-ipsum">
+                
+              </div>
+
+        
+        
+        </div>
+       
+      </div>
+  </body>
+
+</html>
