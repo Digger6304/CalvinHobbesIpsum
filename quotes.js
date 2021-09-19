@@ -119,5 +119,29 @@ const spiffQuotes = [
     "Spiff is going down! Can he make it?? Is this the end?!?",
     "Spaceman Spiff cooly draws his death ray blaster...",
     
+    
+    
+    
+
+]
+
+
+const susieQuotes = [
+    "You do not! Don’t be disgusting.",
+    "Miss Wormwood!!",
+    "What on earth makes you think I’d want to sit in a stupid tree in the first place?!?",
+    "Insurance?? What a dumb idea!",
+    "Hey Calvin, you want to play house?",
+    "Okay… First, you come home from work. Then I come home from work.", 
+    "I love winter days. They’re so peaceful",
+    "I brought a letter I wrote to our congressman!",
+    "It’s a secret note, so don’t read it.",
+    "Girls have moved delicate heinies.",
+    "Darn you, Calvin!! You’re gonna answer to my parents if I can’t get my master’s degree!",  
+    "I think one of us has been eating too much paste in art class.",
+
+
+
+    
 
 ]
