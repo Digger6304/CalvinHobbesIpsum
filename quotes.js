@@ -149,6 +149,21 @@ const susieQuotes = [
 
 const momQuotes = [
    
+    "No, Calvin.",
+    "Of course not, Calvin.",
+    "What a noisy kid!",
+    "CALVIN! Quiet down and quit that splashing! I don’t want to have to clean the whole bathroom!",
+    "Your stuffed tiger is in the washing machine.",
+    "Calvin! What are you doing to our yard?!?",
+    "It’s your fault we didn’t have a sweet little girl! Your stupid chromosome!! Not mine!!",
+    "Very grim, Calvin you’re still having oatmeal.",
+    "Calvin! You’re going to be late for school! Get up!",
+    "Now are you through charging around the house. Or are you going to fall down the stairs again?",
+    "Your dinner's getting cold Calvin.",
+    "I’ll bet he grows up to be an architect.",
+    "We...Are...Buying… A Video Player.",
+
+   
 ]
 
 
