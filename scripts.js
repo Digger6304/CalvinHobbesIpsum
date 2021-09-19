@@ -36,7 +36,7 @@ function generate() {
 
     if(document.getElementById("susieradio").checked){
 
-        element.innerHTML = generatesusieText();
+        element.innerHTML = generateSusieText();
         return;
     }
 
