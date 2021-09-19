@@ -145,3 +145,29 @@ const susieQuotes = [
     
 
 ]
+
+
+const momQuotes = [
+   
+]
+
+
+const dadQuotes = [
+    "Bring it home and stuff it, Calvin! Can’t you see I’m busy?",
+    "Calvin, stop that disgusting drooling!",
+    "Sheesh",
+    "What’s all this noise? You’re supposed to be asleep!",
+    "Good idea, Calvin. It’s a plate of toxic waste that will turn you into a mutat if you eat it.",
+    "Hobbes was not jumping on the bed! Now go to sleep ",
+    "Taste it you’ll love it.",
+    "I just live here.",
+    "That does it, young man! You are excused to your room!",
+    "Don’t look at me! I’m done shopping!",
+    "Then it will build character.",
+    "What is that kid doing?! It sounds like a chair thumping around the room.",
+    "You tied yourself up?? What on earth are you doing?!",
+    "Have you seen how absorbed Calvin is with those tinkertoys? He’s creating whole worlds over there!",
+    "Oh, knock it off. Some of us have to wear a tie everyday.",
+    "This season gets less jolly every year.",
+
+]
