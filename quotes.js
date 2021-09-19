@@ -148,7 +148,6 @@ const susieQuotes = [
 
 
 const momQuotes = [
-   
     "No, Calvin.",
     "Of course not, Calvin.",
     "What a noisy kid!",
@@ -162,8 +161,6 @@ const momQuotes = [
     "Your dinner's getting cold Calvin.",
     "I’ll bet he grows up to be an architect.",
     "We...Are...Buying… A Video Player.",
-
-   
 ]
 
 
