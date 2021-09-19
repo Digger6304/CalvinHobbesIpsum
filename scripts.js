@@ -34,9 +34,9 @@ function generate() {
     }
 
 
-    if(document.getElementById("suseyradio").checked){
+    if(document.getElementById("susieradio").checked){
 
-        element.innerHTML = generatesuseyText();
+        element.innerHTML = generatesusieText();
         return;
     }
 
@@ -92,4 +92,31 @@ function generateHobbesText(numparagraphs) {
     return quotes;
 
 }
+
+
+
+function generateSusieText(numparagraphs) {
+
+    var quotes = "";
+
+    for(let i = 0; i < numparagraphs ;i++ )    {
+
+        quotes += "<p>";    
+        
+        for(let j = 0; j < 7 ;j++ ){
+
+            var randomindex = Math.floor(Math.random() * susieQuotes.length);
+
+            quotes += susieQuotes[randomindex];  
+            quotes += "  ";
+
+        }  
+        
+        quotes += "</p>";
+    }
+    
+    return quotes;
+
+}
+
 
