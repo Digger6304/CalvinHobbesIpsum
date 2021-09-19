@@ -29,14 +29,14 @@ function generate() {
 
     if(document.getElementById("spiffradio").checked){
 
-        element.innerHTML = generatespiffText();
+        element.innerHTML = generatespiffText(numparagraphs);
         return;
     }
 
 
     if(document.getElementById("susieradio").checked){
 
-        element.innerHTML = generateSusieText();
+        element.innerHTML = generateSusieText(numparagraphs);
         return;
     }
 
