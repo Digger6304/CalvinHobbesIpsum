@@ -29,7 +29,7 @@ function generate() {
 
     if(document.getElementById("spiffradio").checked){
 
-        element.innerHTML = generatespiffText(numparagraphs);
+        element.innerHTML = generateSpiffText(numparagraphs);
         return;
     }
 
@@ -42,6 +42,18 @@ function generate() {
 
 
     
+     if(document.getElementById("momradio").checked){
+
+        element.innerHTML = generateMomText(numparagraphs);
+        return;
+    }
+    
+    
+     if(document.getElementById("dadradio").checked){
+
+        element.innerHTML = generateDadText(numparagraphs);
+        return;
+    }
 }
 
 
@@ -118,5 +130,83 @@ function generateSusieText(numparagraphs) {
     return quotes;
 
 }
+
+
+
+function generateSpiffText(numparagraphs) {
+
+    var quotes = "";
+
+    for(let i = 0; i < numparagraphs ;i++ )    {
+
+        quotes += "<p>";    
+        
+        for(let j = 0; j < 7 ;j++ ){
+
+            var randomindex = Math.floor(Math.random() * spiffQuotes.length);
+
+            quotes += spiffQuotes[randomindex];  
+            quotes += "  ";
+
+        }  
+        
+        quotes += "</p>";
+    }
+    
+    return quotes;
+
+}
+
+
+function generateMomText(numparagraphs) {
+
+    var quotes = "";
+
+    for(let i = 0; i < numparagraphs ;i++ )    {
+
+        quotes += "<p>";    
+        
+        for(let j = 0; j < 7 ;j++ ){
+
+            var randomindex = Math.floor(Math.random() * momQuotes.length);
+
+            quotes += momQuotes[randomindex];  
+            quotes += "  ";
+
+        }  
+        
+        quotes += "</p>";
+    }
+    
+    return quotes;
+
+}
+
+
+function generateDadText(numparagraphs) {
+
+    var quotes = "";
+
+    for(let i = 0; i < numparagraphs ;i++ )    {
+
+        quotes += "<p>";    
+        
+        for(let j = 0; j < 7 ;j++ ){
+
+            var randomindex = Math.floor(Math.random() * dadQuotes.length);
+
+            quotes += dadQuotes[randomindex];  
+            quotes += "  ";
+
+        }  
+        
+        quotes += "</p>";
+    }
+    
+    return quotes;
+
+}
+
+
 
 
