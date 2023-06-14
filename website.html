@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calvin and Hobbes Ipsum Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+    
+    h1 {
+      margin-top: 50px;
+    }
+    
+    .container {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    #quote {
+      margin-top: 30px;
+      font-size: 20px;
+      padding: 10px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    #generate-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+    }
+    
+    #generate-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Calvin and Hobbes Ipsum Generator</h1>
+  
+  <div class="container">
+    <div id="quote"></div>
+  </div>
+  
+  <button id="generate-btn" onclick="generateQuote()">Generate Quote</button>
+
+  <script>
+    // Array of Calvin and Hobbes quotes
+    const calvinAndHobbesQuotes = [
+      "Reality continues to ruin my life.",
+      "I'm significant! Screamed the dust speck.",
+      "Sometimes I think the surest sign that intelligent life exists elsewhere in the universe is that none of it has tried to contact us.",
+      // Add more quotes here...
+    ];
+    
+    function generateQuote() {
+      const quoteElement = document.getElementById("quote");
+      
+      // Generate a random index to select a quote from the array
+      const randomIndex = Math.floor(Math.random() * calvinAndHobbesQuotes.length);
+      
+      // Display the randomly selected quote
+      quoteElement.textContent = calvinAndHobbesQuotes[randomIndex];
+    }
+  </script>
+</body>
+</html>
